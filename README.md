@@ -15,7 +15,7 @@ https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 ### Clone the Repository
  
 ```
-git clone [https://github.com/s-lenz/Assignment4-Stats-Scripts]
+git clone https://github.com/n-modak/Python-basedML.git
 cd Python-basedML
 ```
  
