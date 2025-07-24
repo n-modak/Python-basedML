@@ -50,5 +50,4 @@ This repository is intended for educational use only.
  
 ## Acknowledgments
 Based on exercises from:
-[https://scipy-lectures.org/packages/statistics/index.html
-© The SciPy Lecture Notes authors.](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
+https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
