@@ -3,27 +3,27 @@ The purpose of this repository is to document my walkthrough of machine learning
  
 # Assignment 5 – Python-based ML
  
-This repository contains a Jupyter notebook that walks through statistical analysis in Python, based on exercises from the SciPy Lecture Notes. The goal is to practice applying common statistical and plotting techniques that will be useful in future data analysis labs.
+This repository contains a Jupyter notebook that walks through machine learning in Python, based on exercises from "Your First Machine Learning Project in Python Step-By-Step" by Jason Brownlee
  
 ## Source
  
 Tutorial followed:
-https://scipy-lectures.org/packages/statistics/index.html
+https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
  
 ## Getting Started
  
 ### Clone the Repository
  
 ```
-git clone https://github.com/s-lenz/Assignment4-Stats-Scripts
-cd Assignment4-Stats-Scripts
+git clone [https://github.com/s-lenz/Assignment4-Stats-Scripts]
+cd Python-basedML
 ```
  
 ### Create the Conda Environment
  
 ```
-conda env create -f assignment4_env.yml
-conda activate stats-env
+conda env create -f env.yml
+conda activate -env
 ```
  
 ### Packages included
@@ -34,12 +34,13 @@ conda activate stats-env
 - OS
 - Seaborn
 - MatPlotLib
+- sklearn
  
 ## Calculations performed
-Performed basic statistical analysis including group means, standard deviations, and cross-tabulations. Applied hypothesis testing (t-tests, Mann-Whitney U, Wilcoxon, chi-squared tests), computed correlations, and built linear regression models using statsmodels to explore relationships while adjusting for covariates.
+Performed basic statistical analysis
  
 ## Notes
-- Each code block from the SciPy tutorial should be placed in its own notebook cell.
+- Each code block from the tutorial should be placed in its own notebook cell.
 - Include **detailed comments** for every code example.
 - Use **markdown cells** to structure and explain each section.
 - If additional Python packages are required, install them and update the `environment.yml` or `requirements.txt` file accordingly.
@@ -49,5 +50,5 @@ This repository is intended for educational use only.
  
 ## Acknowledgments
 Based on exercises from:
-https://scipy-lectures.org/packages/statistics/index.html
-© The SciPy Lecture Notes authors.
+[https://scipy-lectures.org/packages/statistics/index.html
+© The SciPy Lecture Notes authors.](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
